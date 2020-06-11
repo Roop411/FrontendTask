@@ -1,0 +1,9 @@
+<div class="container-fluid">
+    <h2 class="text-center mt-2">{{userName}}</h2>
+    <div class="row">
+        <div class="col-20 mt-3 mb-3 post" *ngFor="let post of postsList">
+            <h5>{{post.title}}</h5>
+            <p>{{post.body}}</p>
+        </div>
+    </div>
+</div>
